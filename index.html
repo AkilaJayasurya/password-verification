@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Verification</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form class="form__container" id="myform">
+            <h1 class="form__h1">Password Verification</h1>
+
+            <label>Name</label>
+            <input id="namebox" type="text" placeholder="Enter your name">
+            <p id="name__error" class="error"></p>
+
+            <label>Password</label>
+            <input id="passwordbox" type="password" placeholder="Enter your password">
+            <p id="password__error" class="error"></p>
+
+            <label>Confirm Password</label>
+            <input id="confirmpasswordbox" type="password" placeholder="Re-enter Password">
+            <p id="confirmpassword__error" class="error"></p>
+
+            <button id="btn" class="submit__btn">Submit</button>
+        </form>
+    </div>
+
+    <script src="verification.js"></script>
+</body>
+</html>
